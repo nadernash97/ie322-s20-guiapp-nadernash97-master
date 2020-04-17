@@ -70,7 +70,7 @@
             // 
             // BtnLogin
             // 
-            this.BtnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.BtnLogin.BackColor = System.Drawing.Color.Yellow;
             this.BtnLogin.Location = new System.Drawing.Point(249, 256);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(143, 45);
