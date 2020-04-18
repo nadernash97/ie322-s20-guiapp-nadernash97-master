@@ -44,22 +44,25 @@
             // 
             // BtnBack
             // 
-            this.BtnBack.Location = new System.Drawing.Point(274, 347);
+            this.BtnBack.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.BtnBack.Location = new System.Drawing.Point(425, 373);
             this.BtnBack.Name = "BtnBack";
-            this.BtnBack.Size = new System.Drawing.Size(180, 36);
+            this.BtnBack.Size = new System.Drawing.Size(133, 65);
             this.BtnBack.TabIndex = 0;
             this.BtnBack.Text = "Back";
-            this.BtnBack.UseVisualStyleBackColor = true;
+            this.BtnBack.UseVisualStyleBackColor = false;
             this.BtnBack.Click += new System.EventHandler(this.BtnBack_Click);
             // 
             // BtnReset
             // 
-            this.BtnReset.Location = new System.Drawing.Point(274, 26);
+            this.BtnReset.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BtnReset.Location = new System.Drawing.Point(12, 12);
             this.BtnReset.Name = "BtnReset";
-            this.BtnReset.Size = new System.Drawing.Size(176, 31);
+            this.BtnReset.Size = new System.Drawing.Size(176, 59);
             this.BtnReset.TabIndex = 1;
             this.BtnReset.Text = "Reset";
-            this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.UseVisualStyleBackColor = false;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // groupBox1
             // 
@@ -77,53 +80,62 @@
             // RDOBlue2
             // 
             this.RDOBlue2.AutoSize = true;
+            this.RDOBlue2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDOBlue2.Location = new System.Drawing.Point(20, 121);
             this.RDOBlue2.Name = "RDOBlue2";
-            this.RDOBlue2.Size = new System.Drawing.Size(57, 21);
+            this.RDOBlue2.Size = new System.Drawing.Size(61, 23);
             this.RDOBlue2.TabIndex = 7;
             this.RDOBlue2.TabStop = true;
             this.RDOBlue2.Text = "Blue";
             this.RDOBlue2.UseVisualStyleBackColor = true;
+            this.RDOBlue2.CheckedChanged += new System.EventHandler(this.RDOBlue2_CheckedChanged);
             // 
             // RDOGreen2
             // 
             this.RDOGreen2.AutoSize = true;
+            this.RDOGreen2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDOGreen2.Location = new System.Drawing.Point(20, 79);
             this.RDOGreen2.Name = "RDOGreen2";
-            this.RDOGreen2.Size = new System.Drawing.Size(69, 21);
+            this.RDOGreen2.Size = new System.Drawing.Size(72, 23);
             this.RDOGreen2.TabIndex = 6;
             this.RDOGreen2.TabStop = true;
             this.RDOGreen2.Text = "Green";
             this.RDOGreen2.UseVisualStyleBackColor = true;
+            this.RDOGreen2.CheckedChanged += new System.EventHandler(this.RDOGreen2_CheckedChanged);
             // 
             // RDOYellow2
             // 
             this.RDOYellow2.AutoSize = true;
+            this.RDOYellow2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDOYellow2.Location = new System.Drawing.Point(20, 166);
             this.RDOYellow2.Name = "RDOYellow2";
-            this.RDOYellow2.Size = new System.Drawing.Size(69, 21);
+            this.RDOYellow2.Size = new System.Drawing.Size(76, 23);
             this.RDOYellow2.TabIndex = 5;
             this.RDOYellow2.TabStop = true;
             this.RDOYellow2.Text = "Yellow";
             this.RDOYellow2.UseVisualStyleBackColor = true;
+            this.RDOYellow2.CheckedChanged += new System.EventHandler(this.RDOYellow2_CheckedChanged);
             // 
             // RDORed2
             // 
             this.RDORed2.AutoSize = true;
-            this.RDORed2.Location = new System.Drawing.Point(20, 39);
+            this.RDORed2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RDORed2.Location = new System.Drawing.Point(20, 41);
             this.RDORed2.Name = "RDORed2";
-            this.RDORed2.Size = new System.Drawing.Size(55, 21);
+            this.RDORed2.Size = new System.Drawing.Size(57, 23);
             this.RDORed2.TabIndex = 3;
             this.RDORed2.TabStop = true;
             this.RDORed2.Text = "Red";
             this.RDORed2.UseVisualStyleBackColor = true;
+            this.RDORed2.CheckedChanged += new System.EventHandler(this.RDORed2_CheckedChanged);
             // 
             // RDORed
             // 
             this.RDORed.AutoSize = true;
+            this.RDORed.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDORed.Location = new System.Drawing.Point(207, 127);
             this.RDORed.Name = "RDORed";
-            this.RDORed.Size = new System.Drawing.Size(55, 21);
+            this.RDORed.Size = new System.Drawing.Size(59, 23);
             this.RDORed.TabIndex = 0;
             this.RDORed.TabStop = true;
             this.RDORed.Text = "Red";
@@ -133,9 +145,10 @@
             // RDOYellow
             // 
             this.RDOYellow.AutoSize = true;
+            this.RDOYellow.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDOYellow.Location = new System.Drawing.Point(207, 254);
             this.RDOYellow.Name = "RDOYellow";
-            this.RDOYellow.Size = new System.Drawing.Size(69, 21);
+            this.RDOYellow.Size = new System.Drawing.Size(80, 23);
             this.RDOYellow.TabIndex = 1;
             this.RDOYellow.TabStop = true;
             this.RDOYellow.Text = "Yellow";
@@ -145,9 +158,10 @@
             // RDOGreen
             // 
             this.RDOGreen.AutoSize = true;
+            this.RDOGreen.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDOGreen.Location = new System.Drawing.Point(207, 167);
             this.RDOGreen.Name = "RDOGreen";
-            this.RDOGreen.Size = new System.Drawing.Size(69, 21);
+            this.RDOGreen.Size = new System.Drawing.Size(75, 23);
             this.RDOGreen.TabIndex = 2;
             this.RDOGreen.TabStop = true;
             this.RDOGreen.Text = "Green";
@@ -157,9 +171,10 @@
             // RDOBlue
             // 
             this.RDOBlue.AutoSize = true;
+            this.RDOBlue.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RDOBlue.Location = new System.Drawing.Point(207, 209);
             this.RDOBlue.Name = "RDOBlue";
-            this.RDOBlue.Size = new System.Drawing.Size(57, 21);
+            this.RDOBlue.Size = new System.Drawing.Size(63, 23);
             this.RDOBlue.TabIndex = 4;
             this.RDOBlue.TabStop = true;
             this.RDOBlue.Text = "Blue";
@@ -170,6 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(570, 450);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BtnReset);

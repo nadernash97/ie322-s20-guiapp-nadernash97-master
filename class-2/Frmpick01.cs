@@ -29,7 +29,7 @@ namespace class_2
         {
             try
             {
-                Pictry.Image = Image.FromFile("");
+                Pictry.Image = Image.FromFile("C:\\Users\\nader\\Desktop\\images\\Cr.jpg");
 
             }
             catch
@@ -41,13 +41,28 @@ namespace class_2
 
         private void BtnimagefResource_Click(object sender, EventArgs e)
         {
-            Pictry1.Image = Image.FromStream(_ImageStream);
+            try
+            {
+                Pictry1.Image = Image.FromStream(_ImageStream);
+            }
+            catch
+            {
+                MessageBox.Show("Error creating image from Resource");
+
+            }
         }
 
         private void Frmpick01_Load(object sender, EventArgs e)
         {
             _assembly = Assembly.GetExecutingAssembly();
             _ImageStream = _assembly.GetManifestResourceStream("class_2.res.Cr.jpg");
+
+        }
+
+        private void Btnre_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+
         }
     }
 }

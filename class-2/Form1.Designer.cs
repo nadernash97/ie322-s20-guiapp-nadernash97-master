@@ -59,7 +59,7 @@
             // 
             // BtnExit
             // 
-            this.BtnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.BtnExit.BackColor = System.Drawing.Color.MistyRose;
             this.BtnExit.Location = new System.Drawing.Point(91, 258);
             this.BtnExit.Name = "BtnExit";
             this.BtnExit.Size = new System.Drawing.Size(138, 43);
@@ -70,7 +70,7 @@
             // 
             // BtnLogin
             // 
-            this.BtnLogin.BackColor = System.Drawing.Color.Yellow;
+            this.BtnLogin.BackColor = System.Drawing.Color.LightGreen;
             this.BtnLogin.Location = new System.Drawing.Point(249, 256);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(143, 45);
@@ -326,7 +326,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(1254, 449);
             this.Controls.Add(this.BtnGeneraterand);
             this.Controls.Add(this.BtnArduino);

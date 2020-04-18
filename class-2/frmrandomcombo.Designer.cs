@@ -51,6 +51,7 @@
             this.BtnReset.TabIndex = 1;
             this.BtnReset.Text = "Reset";
             this.BtnReset.UseVisualStyleBackColor = true;
+            this.BtnReset.Click += new System.EventHandler(this.BtnReset_Click);
             // 
             // cmbrand
             // 

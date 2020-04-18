@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.ChkCoffee = new System.Windows.Forms.CheckBox();
-            this.ChkDount = new System.Windows.Forms.CheckBox();
             this.ChkBrownie = new System.Windows.Forms.CheckBox();
+            this.ChkDount = new System.Windows.Forms.CheckBox();
+            this.ChkCoffee = new System.Windows.Forms.CheckBox();
             this.btnback = new System.Windows.Forms.Button();
             this.BtnShow = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -49,29 +49,10 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Your Choice";
             // 
-            // ChkCoffee
-            // 
-            this.ChkCoffee.AutoSize = true;
-            this.ChkCoffee.Location = new System.Drawing.Point(44, 31);
-            this.ChkCoffee.Name = "ChkCoffee";
-            this.ChkCoffee.Size = new System.Drawing.Size(71, 21);
-            this.ChkCoffee.TabIndex = 0;
-            this.ChkCoffee.Text = "Coffee";
-            this.ChkCoffee.UseVisualStyleBackColor = true;
-            // 
-            // ChkDount
-            // 
-            this.ChkDount.AutoSize = true;
-            this.ChkDount.Location = new System.Drawing.Point(44, 69);
-            this.ChkDount.Name = "ChkDount";
-            this.ChkDount.Size = new System.Drawing.Size(68, 21);
-            this.ChkDount.TabIndex = 1;
-            this.ChkDount.Text = "Donut";
-            this.ChkDount.UseVisualStyleBackColor = true;
-            // 
             // ChkBrownie
             // 
             this.ChkBrownie.AutoSize = true;
+            this.ChkBrownie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ChkBrownie.Location = new System.Drawing.Point(44, 111);
             this.ChkBrownie.Name = "ChkBrownie";
             this.ChkBrownie.Size = new System.Drawing.Size(80, 21);
@@ -79,31 +60,56 @@
             this.ChkBrownie.Text = "Brownie";
             this.ChkBrownie.UseVisualStyleBackColor = true;
             // 
+            // ChkDount
+            // 
+            this.ChkDount.AutoSize = true;
+            this.ChkDount.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ChkDount.Location = new System.Drawing.Point(44, 69);
+            this.ChkDount.Name = "ChkDount";
+            this.ChkDount.Size = new System.Drawing.Size(68, 21);
+            this.ChkDount.TabIndex = 1;
+            this.ChkDount.Text = "Donut";
+            this.ChkDount.UseVisualStyleBackColor = true;
+            // 
+            // ChkCoffee
+            // 
+            this.ChkCoffee.AutoSize = true;
+            this.ChkCoffee.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ChkCoffee.Location = new System.Drawing.Point(44, 31);
+            this.ChkCoffee.Name = "ChkCoffee";
+            this.ChkCoffee.Size = new System.Drawing.Size(71, 21);
+            this.ChkCoffee.TabIndex = 0;
+            this.ChkCoffee.Text = "Coffee";
+            this.ChkCoffee.UseVisualStyleBackColor = true;
+            // 
             // btnback
             // 
-            this.btnback.Location = new System.Drawing.Point(449, 310);
+            this.btnback.BackColor = System.Drawing.Color.MistyRose;
+            this.btnback.Location = new System.Drawing.Point(585, 173);
             this.btnback.Name = "btnback";
             this.btnback.Size = new System.Drawing.Size(103, 53);
             this.btnback.TabIndex = 1;
             this.btnback.Text = "Back";
-            this.btnback.UseVisualStyleBackColor = true;
+            this.btnback.UseVisualStyleBackColor = false;
             this.btnback.Click += new System.EventHandler(this.btnback_Click);
             // 
             // BtnShow
             // 
-            this.BtnShow.Location = new System.Drawing.Point(184, 310);
+            this.BtnShow.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BtnShow.Location = new System.Drawing.Point(585, 76);
             this.BtnShow.Name = "BtnShow";
             this.BtnShow.Size = new System.Drawing.Size(103, 53);
             this.BtnShow.TabIndex = 2;
             this.BtnShow.Text = "Show";
-            this.BtnShow.UseVisualStyleBackColor = true;
+            this.BtnShow.UseVisualStyleBackColor = false;
             this.BtnShow.Click += new System.EventHandler(this.BtnShow_Click);
             // 
             // Frmcheck
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.Info;
+            this.ClientSize = new System.Drawing.Size(742, 288);
             this.Controls.Add(this.BtnShow);
             this.Controls.Add(this.btnback);
             this.Controls.Add(this.groupBox1);

@@ -27,5 +27,19 @@ namespace class_2
         {
             btngeneraterandom.Text = Convert.ToString(y.Next(1, 100));
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.OK;
+        }
+
+        private void btngrn_Click(object sender, EventArgs e)
+        {
+            int r = y.Next(0, 255);
+            int g = y.Next(0, 255);
+            int b = y.Next(0, 255);
+            lbl.Text = Convert.ToString(r) + "_" + Convert.ToString(g) + "_" + Convert.ToString(b);
+            btngrn.BackColor = Color.FromArgb(r, g, b);
+        }
     }
 }

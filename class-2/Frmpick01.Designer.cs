@@ -39,22 +39,28 @@
             // 
             // BtnLoadimg
             // 
-            this.BtnLoadimg.Location = new System.Drawing.Point(148, 36);
+            this.BtnLoadimg.BackColor = System.Drawing.Color.Plum;
+            this.BtnLoadimg.Font = new System.Drawing.Font("Montserrat", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnLoadimg.Location = new System.Drawing.Point(12, 79);
             this.BtnLoadimg.Name = "BtnLoadimg";
             this.BtnLoadimg.Size = new System.Drawing.Size(102, 59);
             this.BtnLoadimg.TabIndex = 0;
             this.BtnLoadimg.Text = "LoadImage";
-            this.BtnLoadimg.UseVisualStyleBackColor = true;
+            this.BtnLoadimg.UseVisualStyleBackColor = false;
             this.BtnLoadimg.Click += new System.EventHandler(this.BtnLoadimg_Click);
             // 
             // Btnre
             // 
-            this.Btnre.Location = new System.Drawing.Point(651, 379);
+            this.Btnre.BackColor = System.Drawing.Color.LightGreen;
+            this.Btnre.Font = new System.Drawing.Font("Microsoft YaHei", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btnre.ForeColor = System.Drawing.Color.Red;
+            this.Btnre.Location = new System.Drawing.Point(350, 379);
             this.Btnre.Name = "Btnre";
             this.Btnre.Size = new System.Drawing.Size(102, 59);
             this.Btnre.TabIndex = 2;
-            this.Btnre.Text = "Reset";
-            this.Btnre.UseVisualStyleBackColor = true;
+            this.Btnre.Text = "Back";
+            this.Btnre.UseVisualStyleBackColor = false;
+            this.Btnre.Click += new System.EventHandler(this.Btnre_Click);
             // 
             // Pictry
             // 
@@ -66,17 +72,19 @@
             // 
             // BtnimagefResource
             // 
-            this.BtnimagefResource.Location = new System.Drawing.Point(503, 53);
+            this.BtnimagefResource.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.BtnimagefResource.Font = new System.Drawing.Font("Montserrat", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnimagefResource.Location = new System.Drawing.Point(686, 79);
             this.BtnimagefResource.Name = "BtnimagefResource";
             this.BtnimagefResource.Size = new System.Drawing.Size(102, 59);
             this.BtnimagefResource.TabIndex = 4;
             this.BtnimagefResource.Text = "IMage form resource";
-            this.BtnimagefResource.UseVisualStyleBackColor = true;
+            this.BtnimagefResource.UseVisualStyleBackColor = false;
             this.BtnimagefResource.Click += new System.EventHandler(this.BtnimagefResource_Click);
             // 
             // Pictry1
             // 
-            this.Pictry1.Location = new System.Drawing.Point(390, 144);
+            this.Pictry1.Location = new System.Drawing.Point(452, 144);
             this.Pictry1.Name = "Pictry1";
             this.Pictry1.Size = new System.Drawing.Size(336, 201);
             this.Pictry1.TabIndex = 5;
@@ -86,6 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Pictry1);
             this.Controls.Add(this.BtnimagefResource);
